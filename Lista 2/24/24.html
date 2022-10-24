@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercício 24 </title>
+        <link rel="stylesheet" href="24.css">
+        <script src="24.js"></script>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <section>
+            <h3>Exercício 24 </h3>
+            <div>
+                Informe o preço <input type="number" id="preco">
+            </div>
+            <div>
+                Informe a categoria
+                <select id="categoria">
+                    <option value="1"> Limpeza </option>
+                    <option value="2"> Alimentação </option>
+                    <option value="3"> Vestuário </option>
+                </select>
+            </div>
+            <div>
+                Informe a situação
+                <select id="situacao">
+                    <option value="R"> Não necessita de refrigeração </option>
+                    <option value="S"> Necessita de refrigeração </option>
+                </select>
+            </div>
+            <div>
+                <button type="button" onclick="calcular()">Enviar</button>
+            </div>
+            <div>
+                <p id="aumento"></p>
+                <p id="imposto"></p>
+                <p id="novoPreco"></p>
+                <p id="classificacao"></p>
+            </div>
+        </section>
+    </body>
+</html>

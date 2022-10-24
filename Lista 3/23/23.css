@@ -1,0 +1,23 @@
+div
+    {
+        margin-bottom: 20px;
+    }
+body
+    {
+        background-color: aqua;
+        
+    }
+section
+    {
+        border-radius: 20px; /*arredondar a borda*/
+        background-color: rgb(255, 244, 200);
+        padding: 20px; /*espaçamento interno a direita esquerda acima abaixo*/
+        margin: auto; /*centraliza*/
+        margin-top: 60px; /*Espaçamento externo superior*/
+        width: 700px;
+    }
+    /*mudar a cor do paragrafo*/
+    p
+    {
+        color: rgb(0, 0, 0);
+    }
