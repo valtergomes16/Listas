@@ -9,7 +9,7 @@ body{
 section{
     border-radius: 10px; /*arredondar a borda*/
     background-color: white;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.329);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.329);
     padding: 20px; /*espaçamento interno a direita esquerda acima abaixo*/
     margin: auto; /*centraliza*/
     margin-top: 60px; /*Espaçamento externo superior*/
