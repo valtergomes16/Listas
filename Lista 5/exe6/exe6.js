@@ -32,6 +32,8 @@ function calcular(){
     for(i=0; i<10; i++){
         console.log(`O vendedor ${vetor[i].nome} receberá ${vetor[i].receber}`)
     }
+    vetor[0].receber = 10
+    console.log(vetor[0].receber)
     console.log(`Total de Vendas ${total}`)
     console.log(`Maior valor a receber ${maior} recebido por ${nomeMaior}`)
     console.log(`Menor valor a receber ${menor} recebido por ${nomeMenor}`)
